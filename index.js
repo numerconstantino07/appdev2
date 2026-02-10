@@ -1,9 +1,9 @@
 import { registerRootComponent } from 'expo';
-import HelloWorld from './HelloWorldDemo';
+import HelloWorldDemo from './HelloWorldDemo';
+import ProfileDemo from './ProfileDemo';
 
-import App from './HelloWorldDemo';
+// Currently registering ProfileDemo as the main screen. 
+// To show HelloWorldDemo instead, comment the line below and uncomment the next one.
+registerRootComponent(ProfileDemo);
 
-// registerRootComponent calls AppRegistry.registerComponent('main', () => App);
-// It also ensures that whether you load the app in Expo Go or in a native build,
-// the environment is set up appropriately
-registerRootComponent(HelloWorld);
+// registerRootComponent(HelloWorldDemo);
