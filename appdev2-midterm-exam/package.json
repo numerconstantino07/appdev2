@@ -1,5 +1,5 @@
 {
-  "name": "react-native-getting-started",
+  "name": "appdev2-midterm-exam",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,6 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "@react-native-vector-icons/ionicons": "^12.4.1",
     "expo": "~54.0.33",
     "expo-status-bar": "~3.0.9",
     "react": "19.1.0",
