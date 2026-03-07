@@ -58,9 +58,9 @@ export default function LoginScreen() {
         {/* Footer */}
         <View style={styles.footer}>
           <Text>Already have an account? </Text>
-          <TouchableOpacity>
+            <TouchableOpacity>
             <Text style={styles.linkText}>Log In</Text>
-          </TouchableOpacity>
+            </TouchableOpacity>
         </View>
       </View>
     </View>
